@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url("age.jpg");
+  }
+ 
+  
+  h1 {
+    text-align: center;
+    color: #fff;
+  }
+  label{
+    color: #fff;
+  }
+  
+  .calculator {
+    max-width: 600px;
+    min-height: 400px;
+    margin: 80px 200px 0px 0px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    border: 0px solid #ddd;
+    border-radius: 5px;
+    box-shadow: #ddd;
+    float: right;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form-group button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color:hsl(0, 11%, 34%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .form-group button:hover{
+    background-color: aqua;
+    color: black;
+  }
+  
+  .result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
